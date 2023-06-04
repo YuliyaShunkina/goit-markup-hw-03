@@ -29,6 +29,13 @@ img {
 .link {
   text-decoration: none;
 }
+.list {
+  list-style: none;
+  margin-top: 0%;
+  margin-bottom: 0;
+  padding-left: 0%;
+}
+
 .container {
   width: 100%;
   max-width: 1158px;
@@ -81,31 +88,28 @@ img {
 
 .header-menu {
   display: flex;
-  margin-right: 76px;
-  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
+
 .header-navigation {
   display: flex;
   align-items: center;
   flex-grow: 1;
+  gap: 40px;
 }
-.header-menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+
 .header-menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
-.list {
-  list-style: none;
-  margin-top: 0%;
-  margin-bottom: 0;
-  padding-left: 0%;
-}
+
 .header-menu-link:hover,
 .header-menu-link:focus,
 .header-menu-link:active {
@@ -126,6 +130,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-color);
+  gap: 40px;
 }
 .header-address {
   font-style: normal;
@@ -175,6 +180,7 @@ img {
 /*---------descrip section------*/
 .descrip {
   background-color: #ffffff;
+  padding: 120px 0;
 }
 .descrip-list-item {
   width: calc((100% - 72px) / 4);
@@ -182,7 +188,7 @@ img {
 .descrip-list {
   display: flex;
   align-items: center;
-  padding-top: 120px;
+
   gap: 24px;
 }
 .descrip-list-title {
@@ -202,11 +208,9 @@ img {
 
 .main-activity {
   background-color: #ffffff;
-}
-.activity-contatiner {
-  padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .main-activity-list {
   display: flex;
   gap: 24px;
@@ -273,6 +277,7 @@ img {
   padding-bottom: 100px;
 }
 .footer-logo {
+  display: inline-block;
   margin-bottom: 16px;
 }
 .span-footer {
@@ -287,8 +292,8 @@ img {
 }
 /*------portfolio-------*/
 
-.portfolio-main {
-  padding-top: 168px;
+.main-portfolio {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 .filters {
