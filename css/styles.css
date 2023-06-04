@@ -68,6 +68,12 @@ img {
   display: flex;
   align-items: center;
 }
+.header-navigation {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 40px;
+}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -90,12 +96,6 @@ img {
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
-}
-
-.header-navigation {
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
   gap: 40px;
 }
 
