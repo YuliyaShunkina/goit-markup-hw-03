@@ -28,6 +28,7 @@ img {
 
 .link {
   text-decoration: none;
+  display: block;
 }
 .list {
   list-style: none;
@@ -188,7 +189,6 @@ img {
 .descrip-list {
   display: flex;
   align-items: center;
-
   gap: 24px;
 }
 .descrip-list-title {
@@ -236,7 +236,7 @@ img {
   padding-bottom: 120px;
 }
 
-.list {
+.team-list {
   display: flex;
   gap: 24px;
 }
