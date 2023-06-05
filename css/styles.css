@@ -302,6 +302,7 @@ img {
   margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
+  gap: 24px;
 }
 .filters-button {
   font-family: "Roboto", sans-serif;
