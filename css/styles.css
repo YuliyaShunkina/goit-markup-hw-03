@@ -67,13 +67,11 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 .header-navigation {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  gap: 40px;
 }
 
 .logo {
@@ -95,9 +93,6 @@ img {
 
 .header-menu {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  gap: 40px;
 }
 .header-menu-item {
   gap: 40px;
@@ -108,7 +103,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -126,7 +120,6 @@ img {
 .adress {
   display: flex;
   margin-left: auto;
-  gap: 40px;
 }
 
 .header-address-item {
@@ -137,11 +130,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-color);
-  gap: 40px;
 }
 .header-address {
   font-style: normal;
-  gap: 40px;
 }
 /*---------hero--------*/
 
